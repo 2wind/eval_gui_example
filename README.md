@@ -1,13 +1,16 @@
 # Example GUI for Command line capable machine learning programs
 
-This is an example GUI made in PysimpleGUI and Tkinter, mainly for machine learning programs that lacks simple yet proper GUI. you only need couple of simple python programs with minimal requirements.
+This is an example GUI made in PysimpleGUI and Tkinter, mainly for machine learning programs that lacks simple yet proper GUI. you only need a couple of simple python scripts with minimal requirements.
 
 It supports:
 
 - Multiple file selection and evaluation
 - Re-rendering without reevaluation
 - Saving evaluated results
+- Tiny output dialog, useful for debugging and not recreating text out dialog
 - (Naturally) any ML programs you made in python.
+
+![GUI](resources/GUI.png)
 
 ## Installation
 
@@ -23,16 +26,18 @@ It supports:
 
 ## Running
 
-
-
   ```bash
   python main.py
   ```
   Please check `main.py` and `evaluate.py` for how things work. `evaluate.py` contains stub evaluator without any 'Evaluation', so technically no Tensorflow / Keras / PyTorch is required.
 
+## In video
+
+![output](resources/output.gif)
+
 ## Copyrights
 
-This repository follows MIT License. check LICENSE and license at the sidebar for more information. You can also buy me a beer if you think it is worth it.
+This repository follows [MIT License](LICENSE). check LICENSE and license at the sidebar for more information. You can also [buy me a beer](toss.me/2wind/1000) if you think it is worth it.
 
 While this repository **DOES NOT CONTAIN ANY OF THE LIBRARY CODE BELOW**, I think it is great idea to acknowledge the great developers of FOSS libraries.
 
